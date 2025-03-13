@@ -1,0 +1,21 @@
+// BASE
+@import "./base/colors";
+@import "./base/reset";
+@import "./base/typography";
+
+// COMPONENTS
+@import "./components/buttons";
+
+// LAYOUT
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+// PAGES
+@import "./pages/contact";
+@import "./pages/home";
+
+// UTILS
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/media-query";

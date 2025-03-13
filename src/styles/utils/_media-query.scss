@@ -1,0 +1,29 @@
+$breakpoint-mobil: 375px;       // Default Mobile Width
+$breakpoint-tablet: 768px;      // from 768px
+$breakpoint-desktop: 1024px;    // from 1024px
+$breakpoint-xldesktop: 1280px;  // from 1280
+
+// MOBILE FIRST MEDIA QUERY
+@mixin screen($size) {
+  @if $size == 'tablet' {
+    @media screen and (min-width: $breakpoint-tablet) {
+      @content;
+    }
+  }
+  @else if $size == 'desktop' {
+    @media screen and (min-width: $breakpoint-desktop) {
+      @content;
+    }
+  }
+  @else if $size == 'xldesktop' {
+    @media screen and (min-width: $breakpoint-xldesktop) {
+      @content;
+    }
+  }
+}
+
+/*
+@include screen(desktop) {
+  width: 80vw;
+}
+*/

@@ -46,8 +46,22 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url(../assets/fonts/Pressstart2P-Regular.ttf);
   font-family: "font-tertiary";
 }
-h1 {
-  font-family: "font-primary";
+header {
+  background-color: lightpink;
+  height: 10vh;
+  text-align: center;
+}
+
+main {
+  background-color: lightgoldenrodyellow;
+  height: 82vh;
+  text-align: center;
+}
+
+footer {
+  background-color: lightblue;
+  height: 8vh;
+  text-align: center;
 }
 
 /*

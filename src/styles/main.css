@@ -35,13 +35,21 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-  src: url(../assets/fonts/fontname.ttf);
+  src: url(../assets/fonts/righteous-regular.ttf);
   font-family: "font-primary";
 }
 @font-face {
-  src: url(../assets/fonts/fontname.ttf);
+  src: url(../assets/fonts/antonio-variablefont.ttf);
   font-family: "font-secondary";
 }
+@font-face {
+  src: url(../assets/fonts/Pressstart2P-Regular.ttf);
+  font-family: "font-tertiary";
+}
+h1 {
+  font-family: "font-primary";
+}
+
 /*
 @include screen(desktop) {
   width: 80vw;

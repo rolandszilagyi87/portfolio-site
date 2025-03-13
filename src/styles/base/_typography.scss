@@ -1,11 +1,17 @@
 $font-primary: "../assets/fonts";
 @font-face {
-  src: url(#{$font-primary}/fontname.ttf);
+  src: url(#{$font-primary}/righteous-regular.ttf);
   font-family: 'font-primary';
 }
 
 $font-secondary: "../assets/fonts";
 @font-face {
-  src: url(#{$font-secondary}/fontname.ttf);
+  src: url(#{$font-secondary}/antonio-variablefont.ttf);
   font-family: 'font-secondary';
+}
+
+$font-tertiary: "../assets/fonts";
+@font-face {
+  src: url(#{$font-secondary}/Pressstart2P-Regular.ttf);
+  font-family: 'font-tertiary';
 }

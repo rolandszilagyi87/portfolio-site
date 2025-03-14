@@ -1,3 +1,8 @@
+// UTILS
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/media-query";
+
 // BASE
 @import "./base/colors";
 @import "./base/reset";
@@ -14,8 +19,3 @@
 // PAGES
 @import "./pages/contact";
 @import "./pages/home";
-
-// UTILS
-@import "./utils/mixins";
-@import "./utils/variables";
-@import "./utils/media-query";

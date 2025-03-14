@@ -1,5 +1,9 @@
 main {
   background-color: lightgoldenrodyellow;
-  height: 82vh;
+  height: 84vh;
   text-align: center;
+
+  @include screen('desktop') {
+    height: 82vh;
+  }
 }

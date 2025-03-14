@@ -1,5 +1,9 @@
 header {
   background-color: lightpink;
-  height: 10vh;
+  height: 8vh;
   text-align: center;
+
+  @include screen('desktop') {
+    height: 10vh;
+  }
 }

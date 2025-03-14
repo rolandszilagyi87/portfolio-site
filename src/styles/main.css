@@ -1,3 +1,8 @@
+/*
+@include screen(desktop) {
+  width: 80vw;
+}
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -48,24 +53,28 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 header {
   background-color: lightpink;
-  height: 10vh;
+  height: 8vh;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  header {
+    height: 10vh;
+  }
 }
 
 main {
   background-color: lightgoldenrodyellow;
-  height: 82vh;
+  height: 84vh;
   text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  main {
+    height: 82vh;
+  }
 }
 
 footer {
   background-color: lightblue;
   height: 8vh;
   text-align: center;
-}
-
-/*
-@include screen(desktop) {
-  width: 80vw;
-}
-*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

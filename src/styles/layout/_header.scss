@@ -1,7 +1,11 @@
 header {
-  background-color: lightpink;
+  background-color: $color-background;
   height: 8vh;
-  text-align: center;
+  outline: 1px solid $color-tertiary;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   @include screen('desktop') {
     height: 10vh;

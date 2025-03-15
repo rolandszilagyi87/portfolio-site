@@ -5,7 +5,7 @@ header {
   position: fixed;
   justify-content: space-between;
   align-items: center;
-  background-color: $color-background;
+  background-color: $color-primary;
   outline: 1px solid $color-tertiary;
 
   @include screen('desktop') {

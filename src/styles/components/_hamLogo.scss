@@ -8,3 +8,9 @@
     cursor: pointer;
   }
 }
+
+@include screen('tablet') {
+  .ham__logo {
+    display: none;
+  }
+}

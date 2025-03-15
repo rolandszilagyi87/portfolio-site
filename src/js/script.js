@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const nav = document.querySelector(".js-nav");
 
   hamIcon.addEventListener("click", function() {
-    nav.style.display = "flex";
+    nav.classList.toggle('d-flex');
   });
 
   nav.addEventListener("click", function() {
-    nav.style.display = "none";
+    nav.classList.toggle('d-flex');
   });
 });

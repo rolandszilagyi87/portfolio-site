@@ -1,9 +1,27 @@
 nav {
-  height: 50%;
-  display: flex;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: $color-primary;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-  img {
-    width: auto;
-    height: 100%;
+  p {
+    margin: 2rem;
+    font-size: 2rem;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $color-secondary;
+    }
   }
 }

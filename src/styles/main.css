@@ -51,15 +51,6 @@ p, h1, h2, h3, h4, h5, h6 {
   src: url(../assets/fonts/Pressstart2P-Regular.ttf);
   font-family: "font-tertiary";
 }
-nav {
-  height: 50%;
-  display: flex;
-}
-nav img {
-  width: auto;
-  height: 100%;
-}
-
 .header__logo {
   height: 50%;
   display: flex;
@@ -69,9 +60,46 @@ nav img {
   height: 100%;
 }
 
+.ham__logo {
+  height: 50%;
+  display: flex;
+}
+.ham__logo img {
+  width: auto;
+  height: 100%;
+  cursor: pointer;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #151A23;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+nav p {
+  margin: 2rem;
+  font-size: 2rem;
+}
+nav p a {
+  color: white;
+  text-decoration: none;
+}
+nav p a:hover {
+  color: #FD6B00;
+}
+
 header {
   height: 8vh;
+  width: 100vw;
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   background-color: #212830;
@@ -85,7 +113,7 @@ header {
 
 main {
   background-color: lightgoldenrodyellow;
-  height: 84vh;
+  height: 184vh;
   text-align: center;
 }
 @media screen and (min-width: 1024px) {

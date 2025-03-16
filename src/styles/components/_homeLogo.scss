@@ -4,12 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  outline: 1px solid yellow;
 
   .line {
     width: 30vw;
     height: 0.30rem;
-    background-color: $color-tertiary;
+    background-color: $color-tertiary-op;
   }
 
   img {

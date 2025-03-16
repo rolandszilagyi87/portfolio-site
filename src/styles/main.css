@@ -53,7 +53,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-family: "font-primary";
 }
 @font-face {
-  src: url(../assets/fonts/antonio-variablefont.ttf);
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
   font-family: "font-secondary";
 }
 @font-face {
@@ -125,12 +125,11 @@ nav p a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  outline: 1px solid yellow;
 }
 .home__logo .line {
   width: 30vw;
   height: 0.3rem;
-  background-color: #A5A6A9;
+  background-color: rgba(165, 166, 169, 0.5);
 }
 .home__logo img {
   width: 5.5rem;
@@ -142,7 +141,6 @@ nav p a:hover {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  outline: 1px solid yellow;
 }
 .home__title h1 {
   font-family: "font-primary";
@@ -161,12 +159,26 @@ nav p a:hover {
   display: flex;
   justify-content: space-between;
   width: 13rem;
-  border: 1px solid #A5A6A9;
+  border: 1px solid rgba(165, 166, 169, 0.5);
   padding: 1.2rem;
 }
 .home__social img {
   width: 2rem;
   height: auto;
+}
+
+.home__button button {
+  all: unset;
+  color: white;
+  background-color: #151A23;
+  font-family: "font-secondary";
+  font-size: 1.2rem;
+  border: 1px solid rgba(165, 166, 169, 0.5);
+  padding: 0.6rem 1.5rem;
+  font-weight: 500;
+}
+.home__button button:hover {
+  background-color: #347d39;
 }
 
 header {
@@ -177,7 +189,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #151A23;
-  outline: 1px solid #A5A6A9;
+  outline: 1px solid rgba(165, 166, 169, 0.5);
 }
 @media screen and (min-width: 1024px) {
   header {

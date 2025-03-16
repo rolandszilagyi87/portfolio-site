@@ -125,6 +125,7 @@ nav p a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  outline: 1px solid yellow;
 }
 .home__logo .line {
   width: 30vw;
@@ -134,6 +135,26 @@ nav p a:hover {
 .home__logo img {
   width: 20vw;
   height: auto;
+}
+
+.home__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  outline: 1px solid yellow;
+}
+.home__title h1 {
+  font-family: "font-primary";
+  font-size: 2rem;
+}
+.home__title h2 {
+  font-family: "font-tertiary";
+  font-size: 0.8rem;
+  color: #A5A6A9;
+}
+.home__title .highlight {
+  color: #FD6B00;
 }
 
 header {

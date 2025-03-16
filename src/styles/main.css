@@ -119,6 +119,23 @@ nav p a:hover {
     background-color: #151A23;
   }
 }
+.home__logo {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__logo .line {
+  width: 30vw;
+  height: 1vw;
+  background-color: #A5A6A9;
+}
+.home__logo img {
+  width: 20vw;
+  height: auto;
+}
+
 header {
   height: 8vh;
   width: 100vw;
@@ -154,20 +171,4 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.home__container .home__logo {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.home__container .home__logo .line {
-  width: 30vw;
-  height: 1vw;
-  background-color: #A5A6A9;
-}
-.home__container .home__logo img {
-  width: 20vw;
-  height: auto;
 }/*# sourceMappingURL=main.css.map */

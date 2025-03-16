@@ -129,11 +129,11 @@ nav p a:hover {
 }
 .home__logo .line {
   width: 30vw;
-  height: 1vw;
+  height: 0.33rem;
   background-color: #A5A6A9;
 }
 .home__logo img {
-  width: 20vw;
+  width: 5.5rem;
   height: auto;
 }
 

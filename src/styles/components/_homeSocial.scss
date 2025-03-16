@@ -1,0 +1,12 @@
+.home__social {
+  display: flex;
+  justify-content: space-between;
+  width: 13rem;
+  border: 1px solid $color-tertiary;
+  padding: 1.2rem;
+
+  img {
+    width: 2rem;
+    height: auto;
+  }
+}

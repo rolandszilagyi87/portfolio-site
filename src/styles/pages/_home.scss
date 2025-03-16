@@ -1,0 +1,25 @@
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .home__logo {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .line {
+      width: 30vw;
+      height: 1vw;
+      background-color: $color-tertiary;
+    }
+
+    img {
+      width: 20vw;
+      height: auto;
+    }
+  }
+}

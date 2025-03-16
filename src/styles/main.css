@@ -23,6 +23,7 @@
 
 body {
   font-size: 15px;
+  color: white;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
@@ -94,7 +95,6 @@ nav {
   width: 100vw;
   height: 100vh;
   background: #151A23;
-  color: white;
 }
 nav p {
   margin: 0 2rem;
@@ -136,12 +136,38 @@ header {
 }
 
 main {
-  background-color: #212830;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212830;
 }
 
 footer {
   background-color: lightblue;
   height: 8vh;
   text-align: center;
+}
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__container .home__logo {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home__container .home__logo .line {
+  width: 30vw;
+  height: 1vw;
+  background-color: #A5A6A9;
+}
+.home__container .home__logo img {
+  width: 20vw;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

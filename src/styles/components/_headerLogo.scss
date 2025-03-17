@@ -7,3 +7,9 @@
     height: 100%;
   }
 }
+
+@include screen('tablet') {
+  .header__logo {
+    height: 40%;
+  }
+}

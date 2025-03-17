@@ -69,6 +69,11 @@ p, h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .header__logo {
+    height: 40%;
+  }
+}
 .ham__logo {
   height: 50%;
   display: flex;
@@ -159,7 +164,6 @@ nav p a:hover {
   display: flex;
   justify-content: space-between;
   width: 13rem;
-  border: 1px solid rgba(165, 166, 169, 0.5);
   padding: 1.2rem;
 }
 .home__social img {
@@ -174,8 +178,10 @@ nav p a:hover {
   font-family: "font-secondary";
   font-size: 1.2rem;
   border: 1px solid rgba(165, 166, 169, 0.5);
-  padding: 0.6rem 1.5rem;
+  border-radius: 2rem;
+  padding: 1rem 2.8rem;
   font-weight: 500;
+  transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .home__button button:hover {
   background-color: #347d39;

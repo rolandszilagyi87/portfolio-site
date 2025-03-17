@@ -159,12 +159,20 @@ nav p a:hover {
 .home__title h1 {
   font-family: "font-primary";
   font-size: 2.25rem;
-  margin: 0.5rem;
+  margin: 2rem 1rem 0.5rem 1rem;
 }
 .home__title h2 {
   font-family: "font-tertiary";
   font-size: 0.8rem;
   color: #A5A6A9;
+}
+.home__title p {
+  font-family: "font-secondary";
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+  width: 80vw;
+  font-weight: 300;
 }
 .home__title .highlight {
   color: #FD6B00;
@@ -175,6 +183,7 @@ nav p a:hover {
   justify-content: space-between;
   width: 13rem;
   padding: 1.2rem;
+  margin: 0.5rem;
 }
 .home__social img {
   width: 2rem;
@@ -228,7 +237,7 @@ footer {
 }
 
 .home__container {
-  height: 55vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

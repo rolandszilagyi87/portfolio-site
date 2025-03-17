@@ -63,6 +63,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .header__logo {
   height: 50%;
   display: flex;
+  margin: 0 1rem;
 }
 .header__logo img {
   width: auto;
@@ -77,6 +78,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .ham__logo {
   height: 50%;
   display: flex;
+  margin: 0 1rem;
 }
 .ham__logo img {
   width: auto;

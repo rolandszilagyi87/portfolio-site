@@ -1,0 +1,7 @@
+@function --outline($color: yellow) {
+  @return 1px solid ($color);
+}
+
+/* 
+border: --outline(red);
+*/

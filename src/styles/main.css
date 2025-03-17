@@ -152,6 +152,7 @@ nav p a:hover {
 .home__title h1 {
   font-family: "font-primary";
   font-size: 2rem;
+  margin: 0.5rem;
 }
 .home__title h2 {
   font-family: "font-tertiary";

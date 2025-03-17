@@ -107,8 +107,9 @@ nav {
   background: #151A23;
 }
 nav p {
-  margin: 0 2rem;
-  font-size: 1.2em;
+  margin: 1rem 2rem;
+  font-size: 1.25rem;
+  font-family: "font-tertiary";
 }
 nav p a {
   color: white;
@@ -127,6 +128,9 @@ nav p a:hover {
     width: 66vw;
     height: 50%;
     background-color: #151A23;
+  }
+  nav p {
+    font-size: 0.8rem;
   }
 }
 .home__logo {
@@ -182,8 +186,8 @@ nav p a:hover {
   color: white;
   background-color: #151A23;
   font-family: "font-secondary";
-  font-size: 1.2rem;
-  border: 1px solid rgba(165, 166, 169, 0.5);
+  font-size: 1.25rem;
+  border: 0.08rem solid rgba(165, 166, 169, 0.5);
   border-radius: 2rem;
   padding: 1rem 2.8rem;
   font-weight: 500;

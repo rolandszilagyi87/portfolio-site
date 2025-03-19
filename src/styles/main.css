@@ -206,6 +206,15 @@ nav p a:hover {
   background-color: #347d39;
 }
 
+.home__herotext {
+  position: absolute;
+  opacity: 0.04;
+}
+.home__herotext h3 {
+  font-size: 18rem;
+  font-family: "font-primary";
+}
+
 header {
   height: 8vh;
   width: 100vw;

@@ -223,8 +223,8 @@ header {
 }
 
 main {
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #212830;
@@ -236,10 +236,18 @@ footer {
   text-align: center;
 }
 
-.home__container {
-  height: 65vh;
+.contact__container {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }/*# sourceMappingURL=main.css.map */

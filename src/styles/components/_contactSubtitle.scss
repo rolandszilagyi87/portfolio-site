@@ -1,0 +1,12 @@
+.contact__subtitle {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  h3 {
+    font-family: 'font-primary';
+    font-size: $font-size-xs;
+    margin: 0 1.5rem;
+  }
+}

@@ -1,0 +1,25 @@
+.contact__things {
+  width: 100vw;
+  
+
+  .contact__things__elements {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    a {
+      color: $color-secondary;
+      font-family: 'font-tertiary';
+      font-size: $font-size-b;
+      border: 1px solid $color-secondary;
+      padding: 0.8rem;
+      margin: .5rem;
+      opacity: .2;
+    }
+
+    a:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+}

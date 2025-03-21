@@ -1,0 +1,19 @@
+.contact__title {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  h2 {
+    font-family: 'font-primary';
+    font-size: $font-size-lg;
+    margin: 0 1.5rem;
+    width: 45vw;
+  }
+
+  span {
+    width: 55vw;
+    height: 0.30rem;
+    background-color: $color-tertiary-op;
+  }
+}

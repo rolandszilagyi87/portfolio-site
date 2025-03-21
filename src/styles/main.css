@@ -151,6 +151,7 @@ nav p a:hover {
 }
 
 .home__title {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -159,7 +160,7 @@ nav p a:hover {
 .home__title h1 {
   font-family: "font-primary";
   font-size: 2.25rem;
-  margin: 2rem 1rem 0.5rem 1rem;
+  margin: 2rem 0 0.5rem 0;
 }
 .home__title h2 {
   font-family: "font-tertiary";
@@ -167,11 +168,11 @@ nav p a:hover {
   color: #A5A6A9;
 }
 .home__title p {
+  width: 80vw;
   font-family: "font-secondary";
   font-size: 1rem;
   text-align: center;
-  margin: 1rem;
-  width: 80vw;
+  margin: 1rem 0;
   font-weight: 300;
 }
 .home__title .highlight {
@@ -183,7 +184,7 @@ nav p a:hover {
   justify-content: space-between;
   width: 13rem;
   padding: 1.2rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0;
 }
 .home__social img {
   width: 2rem;
@@ -215,6 +216,67 @@ nav p a:hover {
   font-family: "font-primary";
 }
 
+.contact__title {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact__title h2 {
+  font-family: "font-primary";
+  font-size: 2.25rem;
+  margin: 0 1.5rem;
+  width: 45vw;
+}
+.contact__title span {
+  width: 55vw;
+  height: 0.3rem;
+  background-color: rgba(165, 166, 169, 0.5);
+}
+
+.contact__subtitle {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contact__subtitle h3 {
+  font-family: "font-primary";
+  font-size: 1.25rem;
+  margin: 0 1.5rem;
+}
+
+.contact__things {
+  width: 100vw;
+}
+.contact__things .contact__things__elements {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.contact__things .contact__things__elements a {
+  color: #FD6B00;
+  font-family: "font-tertiary";
+  font-size: 0.8rem;
+  border: 1px solid #FD6B00;
+  padding: 0.8rem;
+  margin: 0.5rem;
+  opacity: 0.2;
+}
+.contact__things .contact__things__elements a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.contact__herotext {
+  position: absolute;
+  opacity: 0.04;
+}
+.contact__herotext h3 {
+  font-size: 18rem;
+  font-family: "font-primary";
+}
+
 header {
   height: 8vh;
   width: 100vw;
@@ -232,6 +294,7 @@ header {
 }
 
 main {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,6 +309,7 @@ footer {
 }
 
 .contact__container {
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -254,6 +318,7 @@ footer {
 }
 
 .home__container {
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;

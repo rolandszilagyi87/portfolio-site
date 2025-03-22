@@ -253,6 +253,7 @@ nav p a:hover {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin: 0 1.5rem;
 }
 .contact__things .contact__things__elements a {
   color: #FD6B00;
@@ -260,8 +261,8 @@ nav p a:hover {
   font-size: 0.8rem;
   border: 1px solid #FD6B00;
   padding: 0.8rem;
-  margin: 0.5rem;
-  opacity: 0.2;
+  opacity: 0.8;
+  margin: 0.5rem 1rem 0.5rem 0;
 }
 .contact__things .contact__things__elements a:hover {
   opacity: 1;

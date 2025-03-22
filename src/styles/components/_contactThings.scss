@@ -6,6 +6,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin: 0 1.5rem;
 
     a {
       color: $color-secondary;
@@ -13,8 +14,8 @@
       font-size: $font-size-b;
       border: 1px solid $color-secondary;
       padding: 0.8rem;
-      margin: .5rem;
-      opacity: .2;
+      opacity: .8;
+      margin: 0.5rem 1rem 0.5rem 0;
     }
 
     a:hover {

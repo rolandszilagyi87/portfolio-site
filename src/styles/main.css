@@ -286,6 +286,12 @@ nav p a:hover {
   cursor: pointer;
 }
 
+.contact__mind h3 {
+  font-family: "font-secondary";
+  font-weight: 300;
+  margin: 0 1rem;
+}
+
 header {
   height: 8vh;
   width: 100vw;

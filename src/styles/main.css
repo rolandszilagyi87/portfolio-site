@@ -191,7 +191,7 @@ nav p a:hover {
   height: auto;
 }
 
-.home__button button {
+.button--primary button {
   all: unset;
   color: white;
   background-color: #151A23;
@@ -203,8 +203,25 @@ nav p a:hover {
   font-weight: 500;
   transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
-.home__button button:hover {
-  background-color: #347d39;
+.button--primary button:hover {
+  background-color: #FD6B00;
+}
+
+.button--secondary button {
+  all: unset;
+  color: #151A23;
+  background-color: white;
+  font-family: "font-secondary";
+  font-size: 0.8rem;
+  border: 0.08rem solid rgba(165, 166, 169, 0.5);
+  border-radius: 2rem;
+  padding: 0.5rem 1.4rem;
+  font-weight: 500;
+  transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+.button--secondary button:hover {
+  background-color: #FD6B00;
+  color: white;
 }
 
 .herotext__container {

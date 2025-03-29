@@ -337,7 +337,9 @@ footer {
   align-items: center;
 }
 .contact__container .contact__box2 {
+  width: 100vw;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 

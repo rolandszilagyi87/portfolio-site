@@ -1,12 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const hamIcon = document.querySelector(".ham__logo img");
+  const hamIcon = document.querySelector(".header__ham img");
   const nav = document.querySelector(".js-nav");
 
   hamIcon.addEventListener("click", function() {
     nav.classList.toggle('d-flex');
+    nav.classList.toggle("d-none");
   });
 
   nav.addEventListener("click", function() {
     nav.classList.toggle('d-flex');
+    nav.classList.toggle("d-none");
   });
 });

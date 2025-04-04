@@ -78,24 +78,23 @@ p, h1, h2, h3, h4, h5, h6 {
     height: 40%;
   }
 }
-.ham__logo {
+.header__ham {
   height: 50%;
   display: flex;
   margin: 0 1rem;
 }
-.ham__logo img {
+.header__ham img {
   width: auto;
   height: 100%;
   cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
-  .ham__logo {
+  .header__ham {
     display: none;
   }
 }
-nav {
-  display: none;
+.header__nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -106,21 +105,21 @@ nav {
   height: 100vh;
   background: #151A23;
 }
-nav p {
+.header__nav p {
   margin: 1rem 2rem;
   font-size: 1.25rem;
   font-family: "font-tertiary";
 }
-nav p a {
+.header__nav p a {
   color: white;
   text-decoration: none;
 }
-nav p a:hover {
+.header__nav p a:hover {
   color: #FD6B00;
 }
 
 @media screen and (min-width: 768px) {
-  nav {
+  .header__nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -129,7 +128,7 @@ nav p a:hover {
     height: 50%;
     background-color: #151A23;
   }
-  nav p {
+  .header__nav p {
     font-size: 0.8rem;
   }
 }
@@ -277,7 +276,7 @@ nav p a:hover {
   font-family: "font-tertiary";
   font-size: 0.8rem;
   border: 1px solid #FD6B00;
-  padding: 0.8rem;
+  padding: 0.6rem;
   opacity: 0.8;
   margin: 0.5rem 1rem 0.5rem 0;
 }

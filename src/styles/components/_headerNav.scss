@@ -1,5 +1,4 @@
-nav {
-  display: none;
+.header__nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -27,7 +26,7 @@ nav {
 }
 
 @include screen('tablet') {
-  nav {
+  .header__nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;

@@ -20,6 +20,7 @@
 
     a:hover {
       color: $color-secondary;
+      cursor: pointer;
     }
   }
 }
@@ -35,7 +36,7 @@
     background-color: $color-primary;
 
     p {
-      @include text_header_links('font-tertiary', $font-size-b);
+      font-size: $font-size-sm;
     }
   }
 }

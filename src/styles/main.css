@@ -119,6 +119,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .header__nav p a:hover {
   color: #FD6B00;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -132,8 +133,7 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: #151A23;
   }
   .header__nav p {
-    font-family: "font-tertiary";
-    font-size: 0.8rem;
+    font-size: 0.875rem;
   }
 }
 .home__logo {

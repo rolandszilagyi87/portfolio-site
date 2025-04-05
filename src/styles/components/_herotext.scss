@@ -3,7 +3,6 @@
   opacity: .04;
 
   h3 {
-    font-size: 18rem;
-    font-family: 'font-primary';
+    @include text-hero (18rem);
   }
 }

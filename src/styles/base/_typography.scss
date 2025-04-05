@@ -15,3 +15,80 @@ $font-tertiary: "../assets/fonts";
   src: url(#{$font-secondary}/Pressstart2P-Regular.ttf);
   font-family: 'font-tertiary';
 }
+
+// FONT-SIZE SCALE
+$font-size-xxs: 0.625rem;   // 10px
+$font-size-xs: 0.75rem;     // 12px
+$font-size-sm: 0.875rem;    // 14px
+$font-size-md: 1rem;        // 16px
+$font-size-lg: 1.25rem;     // 20px
+$font-size-xl: 1.5rem;      // 24px
+$font-size-xxl: 2rem;       // 32px
+$font-size-xxxl: 3rem;      // 48px
+
+// MAP FOR MIXIN
+$font-sizes: (
+  xxs: $font-size-xxs,
+  xs: $font-size-xs,
+  sm: $font-size-sm,
+  md: $font-size-md,
+  lg: $font-size-lg,
+  xl: $font-size-xl,
+  xxl: $font-size-xxl,
+  xxxl: $font-size-xxxl
+);
+
+@mixin font-title($color) { // Nagy főcím, például kezdőlapon a hero szöveg
+  font-size: $font-size-xxl;
+  font-family: 'font-primary';
+  font-weight: normal;
+  line-height: 1.5;
+  color: $color;
+}
+
+@mixin font-subtitle() { // Alcím, kisebb cím a title alatt vagy szekciók fölött
+
+}
+
+@mixin font-heading() { // Kisebb szekciócímek, pl. H2, H3
+
+}
+
+@mixin font-paragraph() { // Alap bekezdés szöveg
+
+}
+
+@mixin font-caption() { // Apróbb szövegek, pl. dátum, meta info
+
+}
+
+@mixin font-nav($color) { // Navigációs menüpont
+  font-size: $font-size-xl;
+  font-family: 'font-tertiary';
+  font-weight: normal;
+  line-height: 1.5;
+  color: $color;
+}
+
+@mixin font-button() { // Gomb felirat
+
+}
+
+// FONT-SIZE
+// $font-size-b: 0.8rem;
+// $font-size-xs: 1.25rem;
+// $font-size-sm: 1.75rem;
+// $font-size-md: 2rem;
+// $font-size-lg: 2.25rem;
+// $font-size-xl: 2.5rem;
+// $font-size-xxl: 3rem;
+
+@mixin text_header_links($font-family, $font-size) {
+  font-family: $font-family;
+  font-size: $font-size;
+}
+
+@mixin text-hero ($font-size) {
+  font-family: 'font-primary';
+  font-size: $font-size;
+}

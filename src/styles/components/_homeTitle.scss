@@ -6,8 +6,7 @@
   align-items: center;
 
   h1 {
-    font-family: 'font-primary';
-    font-size: $font-size-lg;
+    @include font-title(white);
     margin: 2rem 0 0.5rem 0;
   }
 

@@ -11,12 +11,11 @@
 
   p {
     margin: 1rem 2rem;
-    font-size: $font-size-xs;
-    font-family: 'font-tertiary';
+    @include font-nav(white);
 
     a {
-      color: white;
       text-decoration: none;
+      color: white;
     }
 
     a:hover {
@@ -36,7 +35,7 @@
     background-color: $color-primary;
 
     p {
-      font-size: $font-size-b;
+      @include text_header_links('font-tertiary', $font-size-b);
     }
   }
 }

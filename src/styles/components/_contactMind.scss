@@ -1,8 +1,7 @@
 .contact__mind {
 
   h3 {
-    font-family: 'font-secondary';
-    font-weight: 300;
+    @include font-caption(white);
     margin: 0 1rem;
   }
 }

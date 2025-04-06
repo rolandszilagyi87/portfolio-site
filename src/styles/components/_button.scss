@@ -1,10 +1,10 @@
 .button--primary {
   @include font-button(white);
-  
+
   button {
     all: unset;
     background-color: $color-primary;
-    border: $border-size-sm solid $color-tertiary-op;
+    border: 0.08rem solid $color-tertiary-op;
     border-radius: 2rem;
     padding: 1rem 2.8rem;
     transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
@@ -16,16 +16,14 @@
 }
 
 .button--secondary {
+  @include font-button(black);
+  
   button {
     all: unset;
-    color: $color-primary;
     background-color: white;
-    font-family: 'font-secondary';
-    font-size: $font-size-b;
-    border: $border-size-sm solid $color-tertiary-op;
+    border: 0.08rem solid $color-tertiary-op;
     border-radius: 2rem;
     padding: 0.5rem 1.4rem;
-    font-weight: 500;
     transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   }
 

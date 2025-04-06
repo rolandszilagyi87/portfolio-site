@@ -1,26 +1,23 @@
 .contact__things {
-  width: 100vw;
-  
+  width: 90vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  @include margin($spacing-md, 0);
 
-  .contact__things__elements {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin: 0 1.5rem;
+  a {
+    @include font-heading($color-tertiary);
+    font-size: $font-size-xxs;
+    border: 1px solid $color-tertiary;
+    padding: 0.6rem;
+    opacity: .8;
+    @include margin($spacing-xs, $spacing-xs);
+  }
 
-    a {
-      @include font-caption($color-tertiary);
-      border: 1px solid $color-tertiary;
-      padding: 0.6rem;
-      opacity: .8;
-      margin: 0.5rem 1rem 0.5rem 0;
-    }
-
-    a:hover {
-      opacity: 1;
-      cursor: pointer;
-      color: white;
-      background-color: $color-secondary;
-    }
+  a:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: white;
+    background-color: $color-secondary;
   }
 }

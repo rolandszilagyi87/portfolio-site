@@ -82,8 +82,8 @@ $font-size-xxxl: 2.5rem;    // 40px
   color: $color;
 }
 
-@mixin font-button($color) { // Gomb felirat
-  font-size: $font-size-lg;
+@mixin font-button($color, $font-size) { // Gomb felirat
+  font-size: $font-size;
   font-family: 'font-secondary';
   font-weight: normal;
   color: $color;

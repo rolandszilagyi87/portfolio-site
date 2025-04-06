@@ -1,5 +1,5 @@
 .button--primary {
-  @include font-button(white);
+  @include font-button(white, $font-size-md);
 
   button {
     all: unset;
@@ -17,7 +17,7 @@
 }
 
 .button--secondary {
-  @include font-button(black);
+  @include font-button(black, $font-size-xs);
   
   button {
     all: unset;

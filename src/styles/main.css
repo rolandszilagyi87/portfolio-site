@@ -204,7 +204,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .button--primary {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: "font-secondary";
   font-weight: normal;
   color: white;
@@ -223,7 +223,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .button--secondary {
-  font-size: 1.25rem;
+  font-size: 0.75rem;
   font-family: "font-secondary";
   font-weight: normal;
   color: black;
@@ -255,10 +255,11 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .contact__title {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  align-self: flex-end;
 }
 .contact__title h2 {
   font-size: 2rem;
@@ -266,7 +267,6 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   line-height: 1.5;
   color: white;
-  margin: 0 1.5rem;
   width: 45vw;
 }
 .contact__title span {
@@ -276,44 +276,42 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .contact__subtitle {
-  width: 100vw;
+  width: 80vw;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 .contact__subtitle h3 {
   font-size: 0.875rem;
-  font-family: "font-tertiary";
-  font-weight: normal;
+  font-family: "font-secondary";
+  font-weight: 400;
   line-height: 1.5;
-  color: #A5A6A9;
-  margin: 0 1.5rem;
+  color: white;
 }
 .contact__subtitle .highlight {
   color: #FD6B00;
 }
 
 .contact__things {
-  width: 100vw;
-}
-.contact__things .contact__things__elements {
+  width: 90vw;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin: 0 1.5rem;
+  margin: 2rem 0;
 }
-.contact__things .contact__things__elements a {
+.contact__things a {
   font-size: 0.875rem;
-  font-family: "font-secondary";
-  font-weight: 400;
+  font-family: "font-tertiary";
+  font-weight: normal;
   line-height: 1.5;
   color: #A5A6A9;
+  font-size: 0.625rem;
   border: 1px solid #A5A6A9;
   padding: 0.6rem;
   opacity: 0.8;
-  margin: 0.5rem 1rem 0.5rem 0;
+  margin: 0.5rem 0.5rem;
 }
-.contact__things .contact__things__elements a:hover {
+.contact__things a:hover {
   opacity: 1;
   cursor: pointer;
   color: white;
@@ -366,13 +364,14 @@ footer {
 
 .contact {
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .contact .contact__box1 {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -380,7 +379,7 @@ footer {
 .contact .contact__box2 {
   width: 100vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 

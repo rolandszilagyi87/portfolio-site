@@ -14,6 +14,74 @@
 /* 
 border: --outline(red);
 */
+.anim--heroswim {
+  animation: heroSwim 120s linear infinite;
+}
+
+@keyframes heroSwim {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.anim--titleFadeIn {
+  opacity: 0;
+  animation: titleFadeIn 1.5s ease-out 1.3s forwards;
+}
+
+@keyframes titleFadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.anim--logoSlideIn {
+  opacity: 0;
+  transform: translateY(-50vh);
+  animation: logoSlideIn 0.8s ease-out forwards;
+}
+
+@keyframes logoSlideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.anim--lineLeftSlideIn {
+  opacity: 0;
+  transform: translateX(-100vh);
+  animation: lineLeftSlideIn 1.2s ease-out forwards;
+}
+
+@keyframes lineLeftSlideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.anim--lineRightSlideIn {
+  opacity: 0;
+  transform: translateX(100vh);
+  animation: lineRightSlideIn 1.2s ease-out forwards;
+}
+
+@keyframes lineRightSlideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.anim--subTitleFadeIn {
+  opacity: 0;
+  animation: subTitleFadeIn 1.5s ease-out 1.8s forwards;
+}
+
+@keyframes subTitleFadeIn {
+  to {
+    opacity: 1;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -305,7 +373,7 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   line-height: 1.5;
   color: #A5A6A9;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   border: 1px solid #A5A6A9;
   padding: 0.6rem;
   opacity: 0.8;
@@ -379,6 +447,15 @@ footer {
 .contact .contact__box2 {
   width: 100vw;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }

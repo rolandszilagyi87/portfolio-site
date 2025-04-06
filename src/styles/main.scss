@@ -3,6 +3,7 @@
 @import "./utils/media-query";
 @import "./utils/functions";
 @import "./utils/spacing";
+@import "./utils/animations";
 
 // BASE
 @import "./base/colors";
@@ -31,3 +32,4 @@
 // PAGES
 @import "./pages/contact";
 @import "./pages/home";
+@import "./pages/projects";

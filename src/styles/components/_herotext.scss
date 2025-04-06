@@ -3,6 +3,6 @@
   opacity: .04;
 
   h3 {
-    @include text-hero (18rem);
+    @include font-hero (white);
   }
 }

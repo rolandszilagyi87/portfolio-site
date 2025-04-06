@@ -11,18 +11,14 @@
   }
 
   h2 {
-    font-family: 'font-tertiary';
-    font-size: $font-size-b;
-    color: $color-tertiary;
+    @include font-heading($color-tertiary);
   }
 
   p {
+    @include font-paragraph(white);
     width: 80vw;
-    font-family: 'font-secondary';
-    font-size: 1rem;
     text-align: center;
     margin: 1rem 0;
-    font-weight: 300;
   }
 
   .highlight {

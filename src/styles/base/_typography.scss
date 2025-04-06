@@ -24,7 +24,7 @@ $font-size-md: 1rem;        // 16px
 $font-size-lg: 1.25rem;     // 20px
 $font-size-xl: 1.5rem;      // 24px
 $font-size-xxl: 2rem;       // 32px
-$font-size-xxxl: 3rem;      // 48px
+$font-size-xxxl: 2.5rem;    // 48px
 
 // MAP FOR MIXIN
 $font-sizes: (
@@ -39,6 +39,14 @@ $font-sizes: (
 );
 
 @mixin font-title($color) { // Nagy főcím, például kezdőlapon a hero szöveg
+  font-size: $font-size-xxxl;
+  font-family: 'font-primary';
+  font-weight: normal;
+  line-height: 1.5;
+  color: $color;
+}
+
+@mixin font-subtitle($color) { // Alcím, kisebb cím a title alatt vagy szekciók fölött
   font-size: $font-size-xxl;
   font-family: 'font-primary';
   font-weight: normal;
@@ -46,20 +54,28 @@ $font-sizes: (
   color: $color;
 }
 
-@mixin font-subtitle() { // Alcím, kisebb cím a title alatt vagy szekciók fölött
-
+@mixin font-heading($color) { // Kisebb szekciócímek, pl. H2, H3
+  font-size: $font-size-sm;
+  font-family: 'font-tertiary';
+  font-weight: normal;
+  line-height: 1.5;
+  color: $color;
 }
 
-@mixin font-heading() { // Kisebb szekciócímek, pl. H2, H3
-
+@mixin font-paragraph($color) { // Alap bekezdés szöveg
+  font-size: $font-size-xs;
+  font-family: 'font-secondary';
+  font-weight: 300;
+  line-height: 1.5;
+  color: $color;
 }
 
-@mixin font-paragraph() { // Alap bekezdés szöveg
-
-}
-
-@mixin font-caption() { // Apróbb szövegek, pl. dátum, meta info
-
+@mixin font-caption($color) { // Apróbb szövegek, pl. dátum, meta info
+  font-size: $font-size-sm;
+  font-family: 'font-secondary';
+  font-weight: 500;
+  line-height: 1.5;
+  color: $color;
 }
 
 @mixin font-nav($color) { // Navigációs menüpont
@@ -70,8 +86,19 @@ $font-sizes: (
   color: $color;
 }
 
-@mixin font-button() { // Gomb felirat
+@mixin font-hero($color) { // Hero szöveg
+  font-size: 18rem;
+  font-family: 'font-primary';
+  font-weight: normal;
+  line-height: 1.5;
+  color: $color;
+}
 
+@mixin font-button($color) { // Gomb felirat
+  font-size: $font-size-lg;
+  font-family: 'font-secondary';
+  font-weight: normal;
+  color: $color;
 }
 
 // FONT-SIZE
@@ -85,10 +112,5 @@ $font-sizes: (
 
 @mixin text_header_links($font-family, $font-size) {
   font-family: $font-family;
-  font-size: $font-size;
-}
-
-@mixin text-hero ($font-size) {
-  font-family: 'font-primary';
   font-size: $font-size;
 }

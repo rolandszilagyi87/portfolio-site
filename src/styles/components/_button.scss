@@ -1,14 +1,12 @@
 .button--primary {
+  @include font-button(white);
+  
   button {
     all: unset;
-    color: white;
     background-color: $color-primary;
-    font-family: 'font-secondary';
-    font-size: $font-size-xs;
     border: $border-size-sm solid $color-tertiary-op;
     border-radius: 2rem;
     padding: 1rem 2.8rem;
-    font-weight: 500;
     transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   }
 

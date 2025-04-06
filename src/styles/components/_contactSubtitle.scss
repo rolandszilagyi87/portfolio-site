@@ -5,8 +5,11 @@
   align-items: center;
 
   h3 {
-    font-family: 'font-primary';
-    font-size: $font-size-xs;
+    @include font-heading($color-tertiary);
     margin: 0 1.5rem;
+  }
+
+  .highlight {
+    color: $color-secondary;
   }
 }

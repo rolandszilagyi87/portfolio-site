@@ -5,8 +5,7 @@
   align-items: center;
 
   h2 {
-    font-family: 'font-primary';
-    font-size: $font-size-lg;
+    @include font-subtitle(white);
     margin: 0 1.5rem;
     width: 45vw;
   }

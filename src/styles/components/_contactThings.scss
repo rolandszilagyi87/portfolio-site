@@ -9,10 +9,8 @@
     margin: 0 1.5rem;
 
     a {
-      color: $color-secondary;
-      font-family: 'font-tertiary';
-      font-size: $font-size-b;
-      border: 1px solid $color-secondary;
+      @include font-caption($color-secondary);
+      border: 1px solid $color-tertiary;
       padding: 0.6rem;
       opacity: .8;
       margin: 0.5rem 1rem 0.5rem 0;
@@ -21,6 +19,7 @@
     a:hover {
       opacity: 1;
       cursor: pointer;
+      color: green;
     }
   }
 }

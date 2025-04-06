@@ -328,6 +328,7 @@ header {
   align-items: center;
   background-color: #151A23;
   outline: 1px solid rgba(165, 166, 169, 0.5);
+  z-index: 10;
 }
 @media screen and (min-width: 1024px) {
   header {

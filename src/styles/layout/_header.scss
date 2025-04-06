@@ -7,6 +7,7 @@ header {
   align-items: center;
   background-color: $color-primary;
   outline: 1px solid $color-tertiary-op;
+  z-index: 10;
 
   @include screen('desktop') {
     height: 10vh;

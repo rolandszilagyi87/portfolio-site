@@ -239,6 +239,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .herotext {
   position: absolute;
   opacity: 0.04;
+  pointer-events: none;
 }
 .herotext h3 {
   font-size: 18rem;

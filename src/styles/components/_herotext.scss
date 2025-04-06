@@ -1,6 +1,7 @@
 .herotext {
   position: absolute;
   opacity: .04;
+  pointer-events: none;
 
   h3 {
     @include font-hero (white);

@@ -7,18 +7,18 @@
 
   h1 {
     @include font-title(white);
-    margin: 2rem 0 0.5rem 0;
   }
 
   h2 {
     @include font-heading($color-tertiary);
+    @include margin($spacing-xs, $spacing-xs);
   }
 
   p {
     @include font-paragraph(white);
     width: 80vw;
     text-align: center;
-    margin: 1rem 0;
+    @include margin($spacing-sm, $spacing-sm);
   }
 
   .highlight {

@@ -6,6 +6,7 @@
     background-color: $color-primary;
     border: 0.08rem solid $color-tertiary-op;
     border-radius: 2rem;
+    margin: 0.5rem;
     padding: 1rem 2.8rem;
     transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.15s cubic-bezier(0.4, 0, 0.2, 1) 0s;
   }

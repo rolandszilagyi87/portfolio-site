@@ -1,4 +1,5 @@
 .home__logo {
+  @include margin($spacing-md, $spacing-md);
   width: 100vw;
   height: auto;
   display: flex;

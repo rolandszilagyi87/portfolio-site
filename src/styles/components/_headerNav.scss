@@ -10,7 +10,7 @@
   background: $color-primary;
 
   p {
-    margin: 1rem 2rem;
+    @include margin($spacing-sm, $spacing-md);
     @include font-nav(white);
 
     a {

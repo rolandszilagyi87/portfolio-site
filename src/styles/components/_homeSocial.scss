@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   width: 13rem;
-  padding: 1.2rem;
-  margin: 0.5rem 0;
+  @include padding($spacing-md, $spacing-md);
+  @include margin($spacing-sm, 0);
 
   img {
     width: 2rem;
